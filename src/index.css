@@ -39,4 +39,28 @@ nav h2{
   display: inline-block;
   font-weight: 200;
 }
-/* ----- Navbar ----- */
+/* ----- Navbar end ----- */
+
+/* ----- Cards ----- */
+.cardx{
+  margin-top: 50px;
+  height: 350px;
+  max-width: 500px;
+}
+
+.cardx img{
+  height: 250px;
+  width: 185px;
+  object-fit: cover;
+  border-radius: 5%;
+  float: left;
+  margin: 25px 25px 0px 25px;
+}
+
+#drop{
+  height: 15px;
+  width: 14px;
+  margin: 0;
+}
+
+/* ----- Cards end ----- */
