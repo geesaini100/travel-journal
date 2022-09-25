@@ -48,6 +48,10 @@ nav h2{
   max-width: 500px;
 }
 
+.cardx hr{
+  /* position: static; */
+}
+
 .cardx img{
   height: 250px;
   width: 185px;
@@ -62,5 +66,6 @@ nav h2{
   width: 14px;
   margin: 0;
 }
+
 
 /* ----- Cards end ----- */
