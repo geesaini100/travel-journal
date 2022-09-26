@@ -20,7 +20,7 @@ export default [
     },
     {
         title: "Golden Gate",
-        location: "SF, USA",
+        location: "USA",
         googleMapsUrl: "https://goo.gl/maps/kZqHTVykcw7HzWFg6",
         startDate: "20 Sept, 2022",
         endDate: "05 Oct, 2022",
@@ -29,7 +29,7 @@ export default [
     },
     {
         title: "CN Tower",
-        location: "Toronto, Canada",
+        location: "Canada",
         googleMapsUrl: "https://goo.gl/maps/mvFmbABkFoJx93x67",
         startDate: "20 Sept, 2022",
         endDate: "05 Oct, 2022",
