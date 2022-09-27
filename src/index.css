@@ -1,5 +1,123 @@
+@media screen and (min-width: 400px) and (max-width: 520px) {
+  * {
+    max-width: 605px;
+    background-color: ghostwhite;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+      
+  }
+  
+  /* ----- Navbar ----- */
+  nav{
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .globe{
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(219, 219, 219)
+  }
+  
+  nav h2{
+    display: inline-block;
+    font-weight: 200;
+    background-color: rgb(219, 219, 219)
+  }
+  /* ----- Navbar end ----- */
+  
+  /* ----- Cards ----- */
+  .cardx{
+    height: 280px;
+    max-width: 500px;
+  }
+  
+  
+  .cardx img{
+    height: 230px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 4%;
+    float: left;
+    margin: 0px 25px 0px 25px;
+  }
+  
+  #drop{
+    height: 15px;
+    width: 14px;
+    margin: 0px 2px 0px 0px;
+  }
+  
+  .location{
+    font-weight: 300;
+    display: inline-flex;
+    margin-right: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  
+  .maps{
+    font-weight: 200;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(120, 120, 120);
+    display: inline-flex;
+  }
+  
+  .maps a{
+    color: rgb(120, 120, 120);
+  }
+  
+  .title{
+    margin-top: -5px;
+    font-size: 25px;
+  }
+  
+  .date{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: -6px;
+  }
+  
+  .description{
+    font-size: 12px;
+    width: 350px;
+    margin-left: 40%;
+  }
+  
+  .hori{
+    margin-top: 15%;
+    width: 95%;
+    margin-left: 6%;
+    border: 0.5px solid rgb(219, 219, 219)
+  }
+  /* ----- Cards end ----- */
+  }
+
+
+@media screen and (min-width: 520px) and (max-width: 605px) {
 * {
-  max-width: 550px;
+  max-width: 605px;
   background-color: ghostwhite;
 }
 
@@ -111,3 +229,372 @@ nav h2{
   border: 0.5px solid rgb(219, 219, 219)
 }
 /* ----- Cards end ----- */
+}
+
+/*----------------------- Mid size screen -----------------------*/
+
+@media screen and (min-width: 605px) and (max-width: 900px) {
+  * {
+    max-width: 880px;
+    background-color: ghostwhite;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+      
+  }
+  
+  /* ----- Navbar ----- */
+  nav{
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .globe{
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(219, 219, 219)
+  }
+  
+  nav h2{
+    display: inline-block;
+    font-weight: 200;
+    background-color: rgb(219, 219, 219)
+  }
+  /* ----- Navbar end ----- */
+  
+  /* ----- Cards ----- */
+  .cardx{
+    height: 280px;
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+  }
+  
+  
+  .cardx img{
+    height: 230px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 4%;
+    float: left;
+    margin: 0px 25px 0px 25px;
+  }
+  
+  #drop{
+    height: 15px;
+    width: 14px;
+    margin: 0px 2px 0px 0px;
+  }
+  
+  .location{
+    font-weight: 300;
+    display: inline-flex;
+    margin-right: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  
+  .maps{
+    font-weight: 200;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(120, 120, 120);
+    display: inline-flex;
+  }
+  
+  .maps a{
+    color: rgb(120, 120, 120);
+  }
+  
+  .title{
+    margin-top: -5px;
+    font-size: 25px;
+  }
+  
+  .date{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: -6px;
+  }
+  
+  .description{
+    font-size: 12px;
+    width: 300px;
+    margin-left: 35%;
+  }
+  
+  .hori{
+    margin-top: 12%;
+    width: 95%;
+    margin-left: 6%;
+    border: 0.5px solid rgb(219, 219, 219)
+  }
+
+
+  /* ----- Cards end ----- */
+  }
+
+
+/* Desktop sized */
+
+  @media screen and (min-width: 900px) and (max-width: 1225px) {
+    * {
+      max-width: 100%;
+      background-color: ghostwhite;
+    }
+    
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      box-sizing: border-box;
+    }
+    
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+        
+    }
+    
+    /* ----- Navbar ----- */
+    nav{
+      background-color: rgb(219, 219, 219);
+      width: 100%;
+      height: 70px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .globe{
+      display: inline-block;
+      vertical-align: middle;
+      width: 35px;
+      height: 35px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      background-color: rgb(219, 219, 219)
+    }
+    
+    nav h2{
+      display: inline-block;
+      font-weight: 200;
+      background-color: rgb(219, 219, 219)
+    }
+    /* ----- Navbar end ----- */
+    
+    /* ----- Cards ----- */
+    .cardx{
+      height: 280px;
+      margin: auto;
+      width: 65%;
+      padding: 10px;
+    }
+    
+    
+    .cardx img{
+      height: 230px;
+      width: 150px;
+      object-fit: cover;
+      border-radius: 4%;
+      float: left;
+      margin: 0px 25px 0px 25px;
+    }
+    
+    #drop{
+      height: 15px;
+      width: 14px;
+      margin: 0px 2px 0px 0px;
+    }
+    
+    .location{
+      font-weight: 300;
+      display: inline-flex;
+      margin-right: 20px;
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+    
+    .maps{
+      font-weight: 200;
+      font-size: 12px;
+      text-decoration: none;
+      color: rgb(120, 120, 120);
+      display: inline-flex;
+    }
+    
+    .maps a{
+      color: rgb(120, 120, 120);
+    }
+    
+    .title{
+      margin-top: -5px;
+      font-size: 25px;
+    }
+    
+    .date{
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: -6px;
+    }
+    
+    .description{
+      font-size: 12px;
+      width: 500px;
+      margin-left: 25%;
+    }
+    
+    .hori{
+      margin-top: 100px;
+      width: 93%;
+      border: 0.5px solid rgb(219, 219, 219)
+    }
+  
+  
+    /* ----- Cards end ----- */
+    }
+
+
+
+    /* EXTRA big screens! */
+
+
+    @media screen and (min-width: 1225px) and (max-width: 3500px) {
+      * {
+        max-width: 100%;
+        background-color: ghostwhite;
+      }
+      
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        box-sizing: border-box;
+      }
+      
+      code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+          monospace;
+          
+      }
+      
+      /* ----- Navbar ----- */
+      nav{
+        background-color: rgb(219, 219, 219);
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      
+      .globe{
+        display: inline-block;
+        vertical-align: middle;
+        width: 35px;
+        height: 35px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(219, 219, 219)
+      }
+      
+      nav h2{
+        display: inline-block;
+        font-weight: 200;
+        background-color: rgb(219, 219, 219)
+      }
+      /* ----- Navbar end ----- */
+      
+      /* ----- Cards ----- */
+      .cardx{
+        height: 300px;
+        margin: auto;
+        width: 65%;
+        padding: 10px;
+      }
+      
+      
+      .cardx img{
+        height: 280px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 4%;
+        float: left;
+        margin: 0px 25px 0px 25px;
+      }
+      
+      #drop{
+        height: 15px;
+        width: 14px;
+        margin: 0px 2px 0px 0px;
+      }
+      
+      .location{
+        font-weight: 300;
+        display: inline-flex;
+        margin-right: 20px;
+        font-size: 16px;
+        letter-spacing: 2px;
+      }
+      
+      .maps{
+        font-weight: 200;
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(120, 120, 120);
+        display: inline-flex;
+      }
+      
+      .maps a{
+        color: rgb(120, 120, 120);
+      }
+      
+      .title{
+        margin-top: -5px;
+        font-size: 25px;
+      }
+      
+      .date{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: -6px;
+      }
+      
+      .description{
+        font-size: 14px;
+        width: 600px;
+        margin-left: 15%;
+      }
+      
+      .hori{
+        margin-top: 105px;
+        width: 93%;
+        border: none;
+      }
+    
+    
+      /* ----- Cards end ----- */
+      }
