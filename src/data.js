@@ -22,8 +22,8 @@ export default [
         title: "Golden Gate",
         location: "USA",
         googleMapsUrl: "https://goo.gl/maps/kZqHTVykcw7HzWFg6",
-        startDate: "20 Sept, 2022",
-        endDate: "05 Oct, 2022",
+        startDate: "16 June, 2022",
+        endDate: "18 June, 2022",
         description: "Golden Gate Bridge is a suspension bridge across the place the where San Francisco Bay opens into the Pacific Ocean, so-called Golden Gate (hence the name). It connects San Francisco with Marin County and it is 2737 meters long and 227 meters high. Some 45 million of vehicles cross Golden Gate Bridge in a year.",
         imageUrl: "https://source.unsplash.com/Ji_G7Bu1MoM"
     },
@@ -31,9 +31,18 @@ export default [
         title: "CN Tower",
         location: "Canada",
         googleMapsUrl: "https://goo.gl/maps/mvFmbABkFoJx93x67",
-        startDate: "20 Sept, 2022",
-        endDate: "05 Oct, 2022",
+        startDate: "08 Oct, 2022",
+        endDate: "18 Oct, 2022",
         description: "CN Tower, also called Canadian National Tower, broadcast and telecommunications tower in Toronto. Standing at a height of 1,815 feet (553 metres), it was the world's tallest freestanding structure until 2007, when it was surpassed by the Burj Dubai building in Dubayy (Dubai), U.A.E.",
         imageUrl: "https://source.unsplash.com/M62J7DBZ-hY"
+    },
+    {
+        title: "Space Needle",
+        location: "Seattle",
+        googleMapsUrl: "https://goo.gl/maps/mvFmbABkFoJx93x67",
+        startDate: "01 Dec, 2022",
+        endDate: "05 Dec, 2022",
+        description: "The Space Needle is an observation tower in Seattle, Washington, United States. Considered to be an icon of the city, it has been designated a Seattle landmark. Located in the Lower Queen Anne neighborhood, it was built in the Seattle Center for the 1962 World's Fair, which drew over 2.3 million visitors.",
+        imageUrl: "https://source.unsplash.com/GV8eF1jJpSs"
     }
 ]

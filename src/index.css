@@ -1,5 +1,6 @@
 * {
   max-width: 550px;
+  background-color: ghostwhite;
 }
 
 body {
@@ -34,24 +35,26 @@ nav{
   height: 35px;
   margin-right: 5px;
   margin-bottom: 5px;
+  background-color: rgb(219, 219, 219)
 }
 
 nav h2{
   display: inline-block;
   font-weight: 200;
+  background-color: rgb(219, 219, 219)
 }
 /* ----- Navbar end ----- */
 
 /* ----- Cards ----- */
 .cardx{
-  height: 350px;
+  height: 280px;
   max-width: 500px;
 }
 
 
 .cardx img{
-  height: 250px;
-  width: 185px;
+  height: 230px;
+  width: 150px;
   object-fit: cover;
   border-radius: 4%;
   float: left;
@@ -61,19 +64,20 @@ nav h2{
 #drop{
   height: 15px;
   width: 14px;
-  margin: 0;
+  margin: 0px 2px 0px 0px;
 }
 
 .location{
   font-weight: 300;
   display: inline-flex;
-  margin-right: 15px;
+  margin-right: 20px;
   font-size: 15px;
+  letter-spacing: 2px;
 }
 
 .maps{
   font-weight: 200;
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: none;
   color: rgb(120, 120, 120);
   display: inline-flex;
@@ -91,12 +95,19 @@ nav h2{
 .date{
   font-size: 12px;
   font-weight: bold;
-  margin-bottom: -8px;
+  margin-bottom: -6px;
 }
 
 .description{
   font-size: 12px;
   width: 300px;
-  margin-left: 220px;
+  float: right;
+}
+
+.hori{
+  margin-top: 150px;
+  width: 95%;
+  margin-left: 6%;
+  border: 0.5px solid rgb(219, 219, 219)
 }
 /* ----- Cards end ----- */
